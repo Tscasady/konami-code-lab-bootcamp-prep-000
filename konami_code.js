@@ -9,7 +9,6 @@ function init() {
     }
     if (index === code.length) {
       alert("Hurray");
-      console.log('am i called?')
       index = 0;
 
     }
