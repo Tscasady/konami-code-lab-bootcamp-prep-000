@@ -6,7 +6,7 @@ function init() {
     main.addEventListener('keydown', function(e) {
       const key = parseInt(e.which)
       if (key === code[index]) {
-        index++;
+        index = index + 1
       }
       if (index === code.length -1) {
         alert("Hurray");
